@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		501782581D5AC3F90098463F /* NSShadow+HKExts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501782571D5AC3F90098463F /* NSShadow+HKExts.swift */; };
+		5017825A1D5AD7410098463F /* attachment.png in Resources */ = {isa = PBXBuildFile; fileRef = 501782591D5AD7410098463F /* attachment.png */; };
 		50FA2D761D59B7F700BE33B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA2D751D59B7F700BE33B3 /* AppDelegate.swift */; };
 		50FA2D781D59B7F700BE33B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA2D771D59B7F700BE33B3 /* ViewController.swift */; };
 		50FA2D7B1D59B7F700BE33B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FA2D791D59B7F700BE33B3 /* Main.storyboard */; };
 		50FA2D7D1D59B7F700BE33B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50FA2D7C1D59B7F700BE33B3 /* Assets.xcassets */; };
 		50FA2D801D59B7F700BE33B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FA2D7E1D59B7F700BE33B3 /* LaunchScreen.storyboard */; };
+		50FA2D8D1D59BC8100BE33B3 /* NSMutableAttributedString+HKExts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA2D8C1D59BC8100BE33B3 /* NSMutableAttributedString+HKExts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		501782571D5AC3F90098463F /* NSShadow+HKExts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSShadow+HKExts.swift"; sourceTree = "<group>"; };
+		501782591D5AD7410098463F /* attachment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attachment.png; sourceTree = "<group>"; };
 		50FA2D721D59B7F700BE33B3 /* HKAttributeString.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKAttributeString.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FA2D751D59B7F700BE33B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50FA2D771D59B7F700BE33B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		50FA2D7C1D59B7F700BE33B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50FA2D7F1D59B7F700BE33B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50FA2D811D59B7F700BE33B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FA2D8C1D59BC8100BE33B3 /* NSMutableAttributedString+HKExts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+HKExts.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,25 @@
 		50FA2D741D59B7F700BE33B3 /* HKAttributeString */ = {
 			isa = PBXGroup;
 			children = (
+				50FA2D871D59B81100BE33B3 /* classes */,
 				50FA2D751D59B7F700BE33B3 /* AppDelegate.swift */,
 				50FA2D771D59B7F700BE33B3 /* ViewController.swift */,
 				50FA2D791D59B7F700BE33B3 /* Main.storyboard */,
 				50FA2D7C1D59B7F700BE33B3 /* Assets.xcassets */,
 				50FA2D7E1D59B7F700BE33B3 /* LaunchScreen.storyboard */,
 				50FA2D811D59B7F700BE33B3 /* Info.plist */,
+				501782591D5AD7410098463F /* attachment.png */,
 			);
 			path = HKAttributeString;
+			sourceTree = "<group>";
+		};
+		50FA2D871D59B81100BE33B3 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				50FA2D8C1D59BC8100BE33B3 /* NSMutableAttributedString+HKExts.swift */,
+				501782571D5AC3F90098463F /* NSShadow+HKExts.swift */,
+			);
+			path = classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +141,7 @@
 			files = (
 				50FA2D801D59B7F700BE33B3 /* LaunchScreen.storyboard in Resources */,
 				50FA2D7D1D59B7F700BE33B3 /* Assets.xcassets in Resources */,
+				5017825A1D5AD7410098463F /* attachment.png in Resources */,
 				50FA2D7B1D59B7F700BE33B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				50FA2D781D59B7F700BE33B3 /* ViewController.swift in Sources */,
+				501782581D5AC3F90098463F /* NSShadow+HKExts.swift in Sources */,
 				50FA2D761D59B7F700BE33B3 /* AppDelegate.swift in Sources */,
+				50FA2D8D1D59BC8100BE33B3 /* NSMutableAttributedString+HKExts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HKAttributeString/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhk.ios.HKAttributeString;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,6 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HKAttributeString/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhk.ios.HKAttributeString;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,6 +308,7 @@
 				50FA2D861D59B7F700BE33B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
