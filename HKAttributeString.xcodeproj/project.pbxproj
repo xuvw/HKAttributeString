@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		501782581D5AC3F90098463F /* NSShadow+HKExts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501782571D5AC3F90098463F /* NSShadow+HKExts.swift */; };
 		5017825A1D5AD7410098463F /* attachment.png in Resources */ = {isa = PBXBuildFile; fileRef = 501782591D5AD7410098463F /* attachment.png */; };
+		50B5C32A1D5B8BA6000EA7C7 /* sc.png in Resources */ = {isa = PBXBuildFile; fileRef = 50B5C3291D5B8BA6000EA7C7 /* sc.png */; };
 		50FA2D761D59B7F700BE33B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA2D751D59B7F700BE33B3 /* AppDelegate.swift */; };
 		50FA2D781D59B7F700BE33B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA2D771D59B7F700BE33B3 /* ViewController.swift */; };
 		50FA2D7B1D59B7F700BE33B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FA2D791D59B7F700BE33B3 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		501782571D5AC3F90098463F /* NSShadow+HKExts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSShadow+HKExts.swift"; sourceTree = "<group>"; };
 		501782591D5AD7410098463F /* attachment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attachment.png; sourceTree = "<group>"; };
+		50B5C3291D5B8BA6000EA7C7 /* sc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sc.png; sourceTree = "<group>"; };
 		50FA2D721D59B7F700BE33B3 /* HKAttributeString.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKAttributeString.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FA2D751D59B7F700BE33B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50FA2D771D59B7F700BE33B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				50FA2D7E1D59B7F700BE33B3 /* LaunchScreen.storyboard */,
 				50FA2D811D59B7F700BE33B3 /* Info.plist */,
 				501782591D5AD7410098463F /* attachment.png */,
+				50B5C3291D5B8BA6000EA7C7 /* sc.png */,
 			);
 			path = HKAttributeString;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B5C32A1D5B8BA6000EA7C7 /* sc.png in Resources */,
 				50FA2D801D59B7F700BE33B3 /* LaunchScreen.storyboard in Resources */,
 				50FA2D7D1D59B7F700BE33B3 /* Assets.xcassets in Resources */,
 				5017825A1D5AD7410098463F /* attachment.png in Resources */,
